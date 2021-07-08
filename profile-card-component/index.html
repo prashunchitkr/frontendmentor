@@ -1,65 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Profile card component</title>
+    <style>
+      .attribution {
+        position: absolute;
+        bottom: 0;
+        font-size: 11px;
+        text-align: center;
+      }
 
-  <title>Frontend Mentor | Profile card component</title>
-  <style>
-    .attribution {
-      position: absolute;
-      bottom: 0;
-      font-size: 11px;
-      text-align: center;
-    }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
-</head>
+  <body>
+    <div class="card">
+      <div class="top">
+        <img src="images/image-victor.jpg" alt="avatar" class="avatar" />
+      </div>
 
-<body>
-  <div class="card">
-    <div class="top">
-      <img src="images/image-victor.jpg" alt="avatar" class="avatar">
-    </div>
-
-    <div class="info">
-      <span class="name">Victor Crest</span>
-      <span class="age">26</<span>
+      <div class="info">
+        <span class="name">Victor Crest</span>
+        <span class="age">26</span>
         <div class="city">London</div>
+      </div>
+
+      <hr />
+
+      <div class="stats">
+        <div class="stat">
+          80k
+          <span class="info">Followers</span>
+        </div>
+        <div class="stat">
+          803k
+          <span class="info">Likes</span>
+        </div>
+        <div class="stat">
+          1.4k
+          <span class="info">Photos</span>
+        </div>
+      </div>
     </div>
-
-    <hr>
-
-    <div class="stats">
-      <div class="stat">
-        80k
-        <span class="info">Followers</span>
-      </div>
-      <div class="stat">
-        803k
-        <span class="info">Likes</span>
-      </div>
-      <div class="stat">
-        1.4k
-        <span class="info">Photos</span>
-      </div>
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/prashunchitkr">Prashun Chitrakar</a>.
     </div>
-
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://github.com/prashunchitkr">Prashun Chitrakar</a>.
-  </div>
-</body>
-
+  </body>
 </html>
